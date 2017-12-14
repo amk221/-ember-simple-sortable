@@ -5,13 +5,13 @@
 ## Example
 
 ```handlebars
-{{#sortable-parent options=(hash group="Items")}}
+{{#x-sortable options=(hash group="Items")}}
   <li>Item 1</li>
   <li>Item 2</li>
   <li>Item 3</li>
   <li>Item 4</li>
   <li>Item 5</li>
-{{/sortable-parent}}
+{{/x-sortable}}
 ```
 
 ### Installation

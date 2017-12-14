@@ -1,5 +1,5 @@
 import Component from '@ember/component';
-import layout from '../templates/components/sortable-parent';
+import layout from '../templates/components/x-sortable';
 import Sortable from 'Sortable';
 import { assign } from '@ember/polyfills';
 
