@@ -1,26 +1,20 @@
 # ember-simple-sortable
 
-This README outlines the details of collaborating on this Ember addon.
+<a href="http://emberobserver.com/addons/ember-simple-sortable"><img src="http://emberobserver.com/badges/ember-simple-sortable.svg"></a> &nbsp; <a href="https://david-dm.org/amk221/ember-simple-sortable#badge-embed"><img src="https://david-dm.org/amk221/ember-simple-sortable.svg"></a> &nbsp; <a href="https://david-dm.org/amk221/ember-simple-sortable#dev-badge-embed"><img src="https://david-dm.org/amk221/ember-simple-sortable/dev-status.svg"></a> &nbsp; <a href="https://codeclimate.com/github/amk221/ember-simple-sortable"><img src="https://codeclimate.com/github/amk221/ember-simple-sortable/badges/gpa.svg" /></a> &nbsp; <a href="http://travis-ci.org/amk221/ember-simple-sortable"><img src="https://travis-ci.org/amk221/ember-simple-sortable.svg?branch=master"></a>
 
-## Installation
+## Example
 
-* `git clone <repository-url>` this repository
-* `cd ember-simple-sortable`
-* `npm install`
+```handlebars
+{{#sortable-parent options=(hash group="Items")}}
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+  <li>Item 5</li>
+{{/sortable-parent}}
+```
 
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+### Installation
+```
+ember install ember-simple-sortable
+```
