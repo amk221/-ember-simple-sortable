@@ -1,15 +1,17 @@
 import Component from '@ember/component';
 import layout from '../templates/components/sortable-parent';
 import Sortable from 'Sortable';
+import { assign } from '@ember/polyfills';
 
 export default Component.extend({
   layout,
 
   didInsertElement() {
     this._super(...arguments);
+
     this.set('sortable', Sortable.create(
       this.get('element'),
-      this.get('options')
+      assign({}, this.get('options'))
     ));
   },
 
