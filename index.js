@@ -8,5 +8,6 @@ module.exports = {
     this._super.included.apply(this, arguments);
 
     app.import('node_modules/sortablejs/Sortable.js');
+    app.import('vendor/shims/sortablejs.js');
   }
 };

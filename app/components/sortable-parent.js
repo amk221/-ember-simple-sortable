@@ -1,0 +1,1 @@
+export { default } from 'ember-simple-sortable/components/sortable-parent';
