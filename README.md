@@ -4,6 +4,8 @@
 
 ## Example
 
+See https://github.com/RubaXa/Sortable#options for the available options.
+
 ```handlebars
 {{#x-sortable options=(hash group="Items")}}
   <li>Item 1</li>
