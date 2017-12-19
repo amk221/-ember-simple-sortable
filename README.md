@@ -7,7 +7,7 @@
 See https://github.com/RubaXa/Sortable#options for the available options.
 
 ```handlebars
-{{#x-sortable options=(hash group="Items")}}
+{{#x-sortable options=(hash group="Items" onAdd=(action "doSomething"))}}
   <li>Item 1</li>
   <li>Item 2</li>
   <li>Item 3</li>
@@ -15,6 +15,10 @@ See https://github.com/RubaXa/Sortable#options for the available options.
   <li>Item 5</li>
 {{/x-sortable}}
 ```
+
+## Note
+
+This addon is not used in production, it was just an experiment to test out Sortable.js
 
 ### Installation
 ```
