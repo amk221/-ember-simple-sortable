@@ -54,7 +54,8 @@
     "sortable"
   ],
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "https://amk221.github.io/ember-simple-sortable"
   },
   "bugs": {
     "url": "https://github.com/amk221/ember-simple-sortable/issues"
