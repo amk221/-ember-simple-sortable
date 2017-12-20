@@ -20,9 +20,10 @@ See https://github.com/RubaXa/Sortable#options for the available options.
 {{/x-sortable}}
 ```
 
-## Note
+## Notes
 
-This addon is not used in production, it was just an experiment to test out Sortable.js
+* This addon is not used in production, it was just an experiment to test out Sortable.js
+* Also see Dragula version https://github.com/amk221/ember-simple-dragula
 
 ### Installation
 ```
