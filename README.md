@@ -2,6 +2,10 @@
 
 <a href="http://emberobserver.com/addons/ember-simple-sortable"><img src="http://emberobserver.com/badges/ember-simple-sortable.svg"></a> &nbsp; <a href="https://david-dm.org/amk221/ember-simple-sortable#badge-embed"><img src="https://david-dm.org/amk221/ember-simple-sortable.svg"></a> &nbsp; <a href="https://david-dm.org/amk221/ember-simple-sortable#dev-badge-embed"><img src="https://david-dm.org/amk221/ember-simple-sortable/dev-status.svg"></a> &nbsp; <a href="https://codeclimate.com/github/amk221/ember-simple-sortable"><img src="https://codeclimate.com/github/amk221/ember-simple-sortable/badges/gpa.svg" /></a> &nbsp; <a href="http://travis-ci.org/amk221/ember-simple-sortable"><img src="https://travis-ci.org/amk221/ember-simple-sortable.svg?branch=master"></a>
 
+## Demo
+
+https://amk221.github.io/ember-simple-sortable
+
 ## Example
 
 See https://github.com/RubaXa/Sortable#options for the available options.
