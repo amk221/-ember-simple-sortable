@@ -5,6 +5,7 @@ import { assign } from '@ember/polyfills';
 
 export default Component.extend({
   layout,
+  classNames: ['x-sortable'],
 
   didInsertElement() {
     this._super(...arguments);
