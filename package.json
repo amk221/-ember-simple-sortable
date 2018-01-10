@@ -1,5 +1,5 @@
 {
-  "name": "ember-simple-sortable",
+  "name": "-ember-simple-sortable",
   "version": "0.0.0",
   "description": "A simple wrapper for Sortable.js",
   "directories": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amk221/ember-simple-sortable.git"
+    "url": "https://github.com/amk221/-ember-simple-sortable.git"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
@@ -55,10 +55,10 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "https://amk221.github.io/ember-simple-sortable"
+    "demoURL": "https://amk221.github.io/-ember-simple-sortable"
   },
   "bugs": {
-    "url": "https://github.com/amk221/ember-simple-sortable/issues"
+    "url": "https://github.com/amk221/-ember-simple-sortable/issues"
   },
-  "homepage": "https://github.com/amk221/ember-simple-sortable"
+  "homepage": "https://github.com/amk221/-ember-simple-sortable"
 }
